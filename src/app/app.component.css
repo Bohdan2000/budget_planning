@@ -2,7 +2,7 @@
 .header{
   background: #EEEEEE;
   color: #010101;
-  padding-top:10px;
+  padding-top:20px;
   padding-bottom: 20px;
 }
 ul, li {
@@ -31,9 +31,39 @@ ul, li {
   padding-bottom:70px;
   text-align: center;
   background-image: url(../assets/mainPicture.jpg);
+
 }
 .buttons button{
   margin: 30px 30px;
   padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.home{
+  margin: 30px 5px;
+
 }
 
+.meta{
+  background: #ffffff;
+  border-radius: 30px;
+  height: 80vh;
+  text-align: center;
+}
+.meta__item{
+  margin: 20px 20px;
+}
+.meta__item img{
+  padding: 8px;
+}
+.meta__item p{
+  margin: 20px 5px;
+  font-size: 20px;
+}
+.meta__item button{
+  margin-top: 30px;
+  padding: 12px;
+  font-size: 17px;
+  background: #00F0F5;
+  cursor: pointer;
+}
