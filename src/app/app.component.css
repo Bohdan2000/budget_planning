@@ -97,7 +97,6 @@ ul, li {
 .pricefree{
   text-align: center;
   padding-top: 20px;
-
 }
 .icons{
   padding-top: 30px;
@@ -105,6 +104,7 @@ ul, li {
 .icons__item{
   padding-left: 20%;
   padding-top: 20px;
+  display: flex;
 }
 .vip__free{
   padding-top: 30px;
@@ -112,4 +112,31 @@ ul, li {
 .vip__free :hover{
   color: blue;
   background: aquamarine;
+}
+.unit_right{
+  padding-left: 20px;
+}
+.icons__item i{
+  padding-top: 4px;
+  color: blue;
+}
+.footer{
+  height: 10%;
+  background: #D6D6D6;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+}
+.footer_title h3{
+  font-size: 26px;
+  padding-right: 250px;
+  padding-left: 10px;
+}
+
+.footer i{
+  padding-top: 7px;
+  font-size: 26px;
+  padding-left: 10px;
+}
+.footer i:hover{
+  color: blue;
 }
